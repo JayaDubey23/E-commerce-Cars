@@ -53,10 +53,17 @@
   }
   
   .date{
+    height: 70px;
     width: 100%;
-    background-color: #474646;
+    background-color: #ececf0;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 10px;
     margin-bottom: 20px;
   } 
+
+  #timer {
+    font-size: 32px;
+    color: #9b0a05;
+    font-weight: bold;
+  }
