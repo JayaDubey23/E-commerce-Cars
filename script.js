@@ -53,3 +53,5 @@ brandPrevBtn.addEventListener("click", () => {
     updateSlider();
   }
 });
+
+console.log("Testing git change in JS file by Jaya");
