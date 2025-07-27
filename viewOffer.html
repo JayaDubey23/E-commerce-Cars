@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electric Cars - CarStore</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="viewOffer.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./home.html">
+        <img src="../E-commerceWebsite/../image/logo.png" alt="Navgurukul Logo" height="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- New Cars Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              New Cars
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./newCars.html">Explore New Cars</a></li>
+              <li><a class="dropdown-item" href="#electricCars">Electric cars</a></li>
+              <li><a class="dropdown-item" href="#popularBrand">Popular cars</a></li>
+              <li><a class="dropdown-item" href="#upcommingCars">Upcoming cars</a></li>
+              <li><a class="dropdown-item" href="#">New Launches</a></li>
+              <li><a class="dropdown-item" href="#">Car Insurance</a></li>
+              <li><a class="dropdown-item" href="#">Popular Brands</a></li>
+              <li><a class="dropdown-item" href="#">Compares cars</a></li>
+            </ul>
+          </li>
+
+          <!-- Used Cars Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Used Cars
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Buy Used Cars</a></li>
+              <li><a class="dropdown-item" href="#">Used Cars In Your City</a></li>
+              <li><a class="dropdown-item" href="#">Sell My Car</a></li>
+              <li><a class="dropdown-item" href="#">Used Car Valuation</a></li>
+              <li><a class="dropdown-item" href="#">Dealership Near Me</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button type="button" class="btn btn-outline-primary ">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Intro Section -->
+  <section class="intro">
+    <h2>Explore Electric Cars</h2>
+    <p>Eco-friendly, cost-saving, and futuristic. Find your perfect ride today.</p>
+    <button onclick="showOffer()">View April Offer</button>
+  </section>
+
+  <!-- Offer Section -->
+  <div id="offerSection">
+    <h3>🔥 April Special Offer!</h3>
+    <p>Flat 25% off on all Electric Cars. Hurry, offer valid till April 30!</p>
+  </div>
+
+  <!-- Grid Section -->
+  <section class="grid">
+    <div class="card">
+      <img src="../image/teslaModel.jpeg" alt="Tesla Model Y">
+      <div class="card-content">
+        <h3>Tesla Model Y</h3>
+        <p>Range: 330 miles | Price: $55,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../image/nissan.jpeg" alt="Nissan Leaf">
+      <div class="card-content">
+        <h3>Nissan Leaf</h3>
+        <p>Range: 226 miles | Price: $32,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../image/hundai.jpeg" alt="Hyundai Ioniq 5">
+      <div class="card-content">
+        <h3>Hyundai Ioniq 5</h3>
+        <p>Range: 303 miles | Price: $41,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../image/bmwi4.jpg" alt="BMW i4">
+      <div class="card-content">
+        <h3>BMW i4</h3>
+        <p>Range: 301 miles | Price: $50,000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <img src="../image/teslaModel.jpeg" alt="Tesla Model Y">
+      <div class="card-content">
+        <h3>Tesla Model Y</h3>
+        <p>Range: 330 miles | Price: $55,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../image/nissan.jpeg" alt="Nissan Leaf">
+      <div class="card-content">
+        <h3>Nissan Leaf</h3>
+        <p>Range: 226 miles | Price: $32,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../image/hundai.jpeg" alt="Hyundai Ioniq 5">
+      <div class="card-content">
+        <h3>Hyundai Ioniq 5</h3>
+        <p>Range: 303 miles | Price: $41,000</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../image/bmwi4.jpg" alt="BMW i4">
+      <div class="card-content">
+        <h3>BMW i4</h3>
+        <p>Range: 301 miles | Price: $50,000</p>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 CarDeal. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function showOffer() {
+      const offer = document.getElementById('offerSection');
+      offer.style.display = offer.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
