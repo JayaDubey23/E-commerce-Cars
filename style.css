@@ -5,24 +5,6 @@
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-  body {
-    /* padding-bottom: 60px; adjust based on height of .text-center.p-3 */
-    padding-top: 60px; 
-  }
-
-  nav{
-    /* overflow: hidden; */
-    height: 70px;
-    position: fixed;
-    top: 0;
-  }
-  nav.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-
-  }
 
   /* Carousel and Text Section-1  */
   .left {
