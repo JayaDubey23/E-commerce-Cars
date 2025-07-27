@@ -9,3 +9,17 @@ function formatTime(seconds) {
   const secs = String(seconds % 60).padStart(2, '0');
   return `${hrs}:${mins}:${secs}`;
 }
+
+// Initial display
+timerDisplay.textContent = formatTime(timeLeft);
+
+// Countdown logic
+const countdown = setInterval(() => {
+  timeLeft--;
+  if (timeLeft < 0) {
+    clearInterval(countdown);
+    timerDisplay.textContent = "Offer Expired!";
+  } else {
+    timerDisplay.textContent = formatTime(timeLeft);
+  }
+}, 1000);
