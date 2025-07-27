@@ -67,3 +67,337 @@
     color: #9b0a05;
     font-weight: bold;
   }
+
+  /* offer Button */
+  #aprilOfferButton{
+    text-decoration: none;
+  }
+
+  /* Container Styling */
+.container {
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #e9e7e7;
+    background: #f9f9f9;
+  }
+  
+  /* Heading Style */
+  .searchCars {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #062a79;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  
+  /* Navigation Bar Styling */
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5px 0;
+    flex-wrap: wrap;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    /* background-color: #1c509e; */
+    color: #073c8b;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.9s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav ul li a:hover {
+    background-color: #061e4d;
+    color: white;
+  }
+  
+  /* Cards Section Styling */
+  .cards .row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Card Styling */
+  .card {
+    width: 250px;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    background-color: #fdfdfd;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #07367c;
+  }
+  
+  .card-text {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .btn-primary {
+    background-color: #07367c;
+    outline: #07367c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #061e4d;
+  }
+  
+  /* Section 3 */
+  
+  .section3{
+    margin-top: 200px;
+  }
+  
+  .btn.btn-outline-primary {
+    background-color: white; /* Violet color */
+    border-color: #061e4d;
+  }
+  .btn.btn-outline-primary a{
+    color: #061e4d;
+  }
+  .btn.btn-outline-primary:hover {
+    background-color: #061e4d;
+    border-color: #8A2BE2;
+  }
+  
+  .btn.btn-outline-primary a:hover {
+    background-color: #061e4d;
+    color: white;
+    border-color: #8A2BE2;
+  }
+  /* Section 3 */
+  .brand img{
+    height: auto;
+  }
+  
+  /* section 4 slider */
+  .brand-slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .brand-slider-container {
+    overflow: hidden;
+    width: 1050px; /* 5 images * 200px + 4 gaps * 30px */
+  }
+  
+  .brand-slider {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .brand-item {
+    width: 200px;
+    border: 1px solid rgb(229, 228, 235);
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+  }
+  
+  .brand-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .brand-btn {
+    background-color: #0c3a97;
+    color: white;
+    font-size: 34px;
+    font-weight: 800;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .brand-btn:hover {
+    background-color: #082661;
+  }
+  .brand-item {
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .brand-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* or use 'cover' for cropping effect */
+    border-radius: 10px;
+  }
+  
+  
+  /* footer CSS*/
+  .footer {
+    background-color: #1b1b1b;
+    color: white;
+  }
+  
+  .footer h5 {
+    color: #062a79;
+    font-weight: bold;
+    /* font-size: 20px; */
+  }
+  
+  .footer p, .footer a {
+      font-size: 20px;
+      color: #100101;
+  }
+  
+  .footer a:hover {
+    color: #3e4fe9;
+    text-decoration: underline;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 8px;
+  }
+  /* css for freez footer*/
+  .text-center.p-3 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #1b1b1b; /* or any background to match your footer */
+    color: white;
+    text-align: center;
+  }
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    padding-bottom: 50px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  /* Medium Devices (Tablets) */
+  @media (max-width: 992px) {
+    .left, .right {
+      float: none;
+      width: 100%;
+    }
+  
+    .d-block {
+      height: 400px;
+    }
+  
+    .right {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .container {
+      height: auto;
+    }
+  
+    .searchCars {
+      font-size: 32px;
+    }
+  
+    .nav ul {
+      gap: 15px;
+    }
+  
+    .card {
+      width: 200px;
+    }
+  
+    .card-img-top {
+      height: 150px;
+    }
+  }
+  
+  /* Small Devices (Phones) */
+  @media (max-width: 576px) {
+    .searchCars {
+      font-size: 26px;
+      text-align: center;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .card {
+      width: 90%;
+      margin: auto;
+    }
+  
+    .card-img-top {
+      height: 140px;
+    }
+  
+    .card-body {
+      padding: 15px;
+    }
+  
+    .right h2 {
+      font-size: 30px;
+    }
+  
+    #timer {
+      font-size: 24px;
+    }
+  
+    .date {
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  
