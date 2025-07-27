@@ -55,3 +55,4 @@ brandPrevBtn.addEventListener("click", () => {
 });
 
 console.log("Testing git change in JS file by Jaya");
+
