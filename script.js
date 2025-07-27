@@ -23,3 +23,33 @@ const countdown = setInterval(() => {
     timerDisplay.textContent = formatTime(timeLeft);
   }
 }, 1000);
+
+// for brand slider
+
+const brandSlider = document.getElementById("brandSlider");
+const brandItems = brandSlider.querySelectorAll(".brand-item");
+const brandPrevBtn = document.getElementById("brandPrevBtn");
+const brandNextBtn = document.getElementById("brandNextBtn");
+
+let currentIndex = 0;
+const itemWidth = 210; // 200px + 30px gap
+const maxIndex = brandItems.length - 5; // Show 5 at a time
+
+function updateSlider() {
+  const scrollX = currentIndex * itemWidth;
+  brandSlider.style.transform = `translateX(-${scrollX}px)`;
+}
+
+brandNextBtn.addEventListener("click", () => {
+  if (currentIndex < maxIndex) {
+    currentIndex++;
+    updateSlider();
+  }
+});
+
+brandPrevBtn.addEventListener("click", () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateSlider();
+  }
+});
